@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="WEB" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="Teste" ruleName="Teste" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="480.89999999999986" scrolly="-55.39999999999918" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">Executar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=":OVy*y,04XQ0rwzkfwB|" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="nh;lN)FzH|7Ew~2axAQO" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field customattributes="" name="TEXT">abc</field>
+          </shadow>
+          <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="s-3eZ8~p)m2*5[K*[f-)" multilayer="false" namespace="cronapi.dateTime.getNow" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20e%20hora%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20data%20e%20hora%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getNow','cronapi.dateTime.getNow')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.dateTime.getNow}}" return-raw-type="undefined"/>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>

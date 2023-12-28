@@ -1,0 +1,65 @@
+{
+  "customId": "testeSOAP",
+  "queryName": "consulta",
+  "sourceType": "rest",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "endpoint": {
+    "url": "http://20.226.77.43:31003/wsDataServer/MEX?wsdl",
+    "GET": {},
+    "POST": {},
+    "PUT": {},
+    "DELETE": {},
+    "FILTER": {},
+    "COUNT": {},
+    "metadata": null
+  },
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {},
+  "defaultValuesProperties": {},
+  "security": {},
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {
+    "Content-Type": "\"text/xml; charset\u003dutf-8\"",
+    "Authorization": "\"Basic bWVzdHJlOnRvdHZz\"",
+    "SOAPAction": "\"http://www.totvs.com/IwsDataServer/ReadView\""
+  },
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query859093/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
